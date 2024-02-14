@@ -1,7 +1,6 @@
-import random
-
-
 def main():
+
+    import random
 
     print("Hello! Welcome to a game of Pig!")
     print("           9")
@@ -13,9 +12,12 @@ def main():
     print("     \\   `-'   /")
     print("      | |---| |  ")
     print("      [_]   [_]")
+    print("")
+    print("Throw the dice!")
 
     dice = random.randint(1, 6)
-    print(dice)
+    print(f"The dice shows the number: {dice}")
 
-    if __name__ == "__main__":
-        main()
+
+if __name__ == "__main__":
+    main()
