@@ -73,6 +73,9 @@ def main():
 
             if choice == "exit" or choice == "Exit":
                 break
+            if choice == "score" or choice == "Score":
+                sum = dice + dice
+                print(f"You got a dice {dice}")
 
 
 if __name__ == "__main__":
