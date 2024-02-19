@@ -14,8 +14,9 @@ def main():
     print("      | |---| |  ")
     print("      [_]   [_]")
     print("")
-
+   
     while True:
+        
         choice = input("Play -- Scores -- Exit\n")
 
         if choice == "play" or choice == "Play":
